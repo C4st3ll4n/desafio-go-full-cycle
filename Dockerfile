@@ -4,7 +4,7 @@ WORKDIR /src
 
 COPY app.go .
 
-RUN go buold -o /app
+RUN go build -o /app
 
 FROM scratch as bin
 
